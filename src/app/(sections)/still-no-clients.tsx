@@ -34,7 +34,11 @@ const StillNoClints = () => {
 
     return (
         <DefaultSection
-            outerClassName='py-[50px] px-[20px] bg-theme-primary/5'
+            outerClassName='py-[50px] px-[20px]'
+            overlay={{
+                color: "#0023A605",
+                opacity: 100,
+            }}
         >
             <div
                 className='space-y-[25px]'

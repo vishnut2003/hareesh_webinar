@@ -33,6 +33,10 @@ const BonusSection = () => {
   return (
     <DefaultSection
         outerClassName='py-[40px] px-[20px]'
+        overlay={{
+            color: "#0023A610",
+            opacity: 100,
+        }}
     >
         <div
             className='flex items-start gap-[25px]'
@@ -41,7 +45,7 @@ const BonusSection = () => {
                 gridData.map((data, index) => (
                     <div
                         key={index}
-                        className='border-dashed border-2 border-theme-primary rounded-2xl overflow-hidden'
+                        className='border-dashed border-2 border-theme-primary rounded-2xl overflow-hidden bg-white'
                     >
                         <div
                             className='bg-theme-primary p-[15px]'
