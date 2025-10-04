@@ -12,7 +12,7 @@ const CelebratingCarouselSection = () => {
             className='space-y-[30px]'
         >
             <h2
-                className='text-3xl font-semibold text-center'
+                className='text-3xl font-bold text-center'
             >Celebrating Those Who Took Action And Got Results</h2>
             <div>
                 <InfiniteCarousel

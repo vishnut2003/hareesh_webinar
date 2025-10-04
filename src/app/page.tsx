@@ -6,6 +6,7 @@ import MeetCoachSection from "./(sections)/meet-coach";
 import OrganicSystemSection from "./(sections)/organic-system-section";
 import StillNoClints from "./(sections)/still-no-clients";
 import TBMCommunitySection from "./(sections)/tbm-community";
+import TestimonialsSection from "./(sections)/testimonials-section";
 import WhatYouLearnSection from "./(sections)/what-you-learn-section";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <MeetCoachSection/>
       <TBMCommunitySection/>
       <CelebratingCarouselSection/>
+      <TestimonialsSection/>
     </div>
   )
 }
