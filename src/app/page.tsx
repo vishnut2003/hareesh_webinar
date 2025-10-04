@@ -1,5 +1,6 @@
 import BenefitsSection from "./(sections)/benefits-section";
 import BonusSection from "./(sections)/bonus-section";
+import CelebratingCarouselSection from "./(sections)/celebrating-carousel";
 import HeroSection from "./(sections)/hero-section";
 import MeetCoachSection from "./(sections)/meet-coach";
 import OrganicSystemSection from "./(sections)/organic-system-section";
@@ -18,6 +19,7 @@ export default function Home() {
       <BonusSection/>
       <MeetCoachSection/>
       <TBMCommunitySection/>
+      <CelebratingCarouselSection/>
     </div>
   )
 }
