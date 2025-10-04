@@ -1,3 +1,4 @@
+import PopupAndButton from '@/components/elements/popup-and-button'
 import DefaultSection from '@/layouts/default-section'
 import Image from 'next/image'
 import React from 'react'
@@ -72,6 +73,18 @@ const StillNoClints = () => {
                         ))
                     }
                 </div>
+
+                <div
+                    className='flex justify-center'
+                >
+                    <PopupAndButton
+                        label='I’m Ready to Get My First 5–10 Coaching Clients'
+                    />
+                </div>
+
+                <p
+                    className='text-lg font-semibold text-center'
+                >Language of Workshop: English</p>
 
             </div>
         </DefaultSection>
