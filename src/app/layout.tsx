@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
+import FooterBottom from "@/layouts/footer";
 
 const outfit = Outfit();
 
@@ -20,6 +21,7 @@ export default function RootLayout({
         className={`${outfit.className} antialiased`}
       >
         {children}
+        <FooterBottom/>
       </body>
     </html>
   );

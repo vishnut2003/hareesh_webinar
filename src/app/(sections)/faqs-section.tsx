@@ -39,6 +39,10 @@ const FaqsSection = () => {
     return (
         <DefaultSection
             outerClassName='py-[40px] px-[20px]'
+            overlay={{
+                color: "#0023A610",
+                opacity: 100,
+            }}
         >
             <div
                 className='space-y-[25px]'
@@ -91,7 +95,7 @@ function FaqSingleItem({
             className='space-y-[5px]'
         >
             <button
-                className='w-full flex items-center justify-between cursor-pointer py-[10px] px-[20px] shadow-md rounded-md'
+                className='w-full flex items-center justify-between cursor-pointer py-[10px] px-[20px] shadow-md rounded-md bg-white'
                 onClick={() => setIsOpen(prev => !prev)}
             >
                 <p
@@ -106,7 +110,7 @@ function FaqSingleItem({
             {
                 isOpen && (
                     <div
-                        className='py-[10px] px-[20px] bg-gray-100'
+                        className='py-[10px] px-[20px] bg-gray-200'
                     >
                         <p
                             className='text-lg'
