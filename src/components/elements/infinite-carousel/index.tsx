@@ -32,7 +32,7 @@ const InfiniteCarousel = ({
             },
         })
         
-    }, [control, totalWidth]);
+    }, [control, totalWidth, slides.length]);
 
     return (
         <div
