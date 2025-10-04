@@ -16,7 +16,7 @@ const InfiniteCarousel = ({
     const sliderRef = useRef<HTMLDivElement>(null);
 
     const totalWidth = slideWidth * slides.length;
-    const speed = 50;
+    const speed = 5;
 
     useEffect(() => {
 
@@ -26,7 +26,7 @@ const InfiniteCarousel = ({
                 x: {
                     repeat: Infinity,
                     repeatType: "loop",
-                    duration: speed,
+                    duration: speed * slides.length,
                     ease: "linear",
                 },
             },
