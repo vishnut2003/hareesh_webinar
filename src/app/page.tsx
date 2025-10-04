@@ -1,6 +1,7 @@
 import BenefitsSection from "./(sections)/benefits-section";
 import HeroSection from "./(sections)/hero-section";
 import OrganicSystemSection from "./(sections)/organic-system-section";
+import StillNoClints from "./(sections)/still-no-clients";
 import WhatYouLearnSection from "./(sections)/what-you-learn-section";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <OrganicSystemSection/>
       <WhatYouLearnSection/>
       <BenefitsSection/>
+      <StillNoClints/>
     </div>
   )
 }
