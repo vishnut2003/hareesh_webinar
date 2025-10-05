@@ -8,7 +8,7 @@ const StickyCTAElement = () => {
         className='fixed bottom-0 left-0 w-full bg-black py-[10px] px-[20px] z-50 flex items-center justify-between rounded-tl-[20px] rounded-tr-[20px]'
     >
         <div
-            className='hidden md:flex items-center gap-2.5 text-white'
+            className='hidden md:flex items-center gap-2.5 text-white w-full'
         >
             {
                 [
@@ -35,7 +35,7 @@ const StickyCTAElement = () => {
             }
         </div>
         <div
-            className='w-full'
+            className='w-full flex justify-end'
         >
             <PopupAndButton
                 label=' I’m Ready to Get My First 5–10 Coaching Clients'

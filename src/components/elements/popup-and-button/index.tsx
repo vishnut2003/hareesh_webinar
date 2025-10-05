@@ -13,7 +13,7 @@ const PopupAndButton = ({
     return (
             <Dialog>
                 <DialogTrigger
-                    className='w-full'
+                    className='w-full max-w-max'
                 >
                     <div
                         className='group w-max max-w-full'
