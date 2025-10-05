@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 import FooterBottom from "@/layouts/footer";
+import StickyCTAElement from "@/components/elements/sticky-cta-element";
 
 const outfit = Outfit();
 
@@ -22,6 +23,7 @@ export default function RootLayout({
       >
         {children}
         <FooterBottom/>
+        <StickyCTAElement/>
       </body>
     </html>
   );
