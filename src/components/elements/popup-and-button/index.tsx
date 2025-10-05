@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import React from 'react'
 import FormPopup from './popup'
 import { Dialog, DialogTrigger } from '@/components/ui/dialog';
 
@@ -10,23 +10,22 @@ const PopupAndButton = ({
     label: string,
 }) => {
 
-    const [isOpen, setIsOpen] = useState<boolean>(false);
-
     return (
             <Dialog>
-                <DialogTrigger>
+                <DialogTrigger
+                    className='w-full'
+                >
                     <div
-                        className='group w-max'
+                        className='group w-max max-w-full'
                     >
-                        <button
-                            className='flex items-center text-xl font-semibold text-white gap-[15px] bg-theme-primary py-[15px] px-[30px] rounded-full group-hover:animate-bounce cursor-pointer'
-                            onClick={() => setIsOpen(prev => !prev)}
+                        <div
+                            className='flex items-center text-base md:text-xl font-semibold text-white gap-[15px] bg-theme-primary py-[15px] px-[30px] rounded-full group-hover:animate-bounce cursor-pointer'
                         >
                             <span
                                 className='relative top-[-3px]'
                             >👉</span>
                             <p>{label}</p>
-                        </button>
+                        </div>
                     </div>
                 </DialogTrigger>
 

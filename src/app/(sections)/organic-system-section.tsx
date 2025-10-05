@@ -27,7 +27,7 @@ const OrganicSystemSection = () => {
                         ].map((content, index) => (
                             <div
                                 key={index}
-                                className='w-full max-w-[31%] p-[25px] bg-gradient-to-b from-white to-theme-primary/10 flex items-stretch gap-[15px] shadow-md rounded-md'
+                                className='w-full md:max-w-[31%] p-[25px] bg-gradient-to-b from-white to-theme-primary/10 flex items-stretch gap-[15px] shadow-md rounded-md'
                             >
                                     <RiCheckboxCircleFill
                                         className='min-w-max text-theme-primary'

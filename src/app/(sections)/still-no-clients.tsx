@@ -48,13 +48,13 @@ const StillNoClints = () => {
                 ><span className='text-highlight'>Doing Everything</span> They Said on Instagram… Still No Clients?</h2>
 
                 <div
-                    className='w-[800px] flex flex-wrap mx-auto'
+                    className='max-w-[800px] w-full flex flex-wrap mx-auto'
                 >
                     {
                         cardData.map((data, index) => (
                             <div
                                 key={index}
-                                className='w-1/2 p-[10px]'
+                                className='w-full md:w-1/2 p-[10px]'
                             >
                                 <div
                                     className='p-[15px] border-2 bg-white border-theme-primary flex flex-col gap-[20px] items-center text-center h-full rounded-2xl'

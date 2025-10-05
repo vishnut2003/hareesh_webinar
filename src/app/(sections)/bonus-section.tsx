@@ -39,7 +39,7 @@ const BonusSection = () => {
         }}
     >
         <div
-            className='flex items-start gap-[25px]'
+            className='flex items-start gap-[25px] flex-col md:flex-row'
         >
             {
                 gridData.map((data, index) => (

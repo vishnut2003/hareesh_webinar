@@ -21,7 +21,7 @@ const HeroSection = () => {
       }}
     >
       <div
-        className='bg-white shadow-xl shadow-gray-200 p-[25px] flex items-center gap-[25px]'
+        className='bg-white shadow-xl shadow-gray-200 p-[25px] flex flex-col-reverse md:flex-row items-center gap-[25px]'
       >
         <div
           className='w-full space-y-[15px]'
@@ -30,18 +30,18 @@ const HeroSection = () => {
             className='flex justify-start'
           >
             <p
-              className='py-[10px] px-[25px] text-lg border-2 border-theme-primary rounded-full font-semibold text-theme-primary'
+              className='py-[10px] px-[25px] text-lg border-2 text-center md:text-left border-theme-primary rounded-full font-semibold text-theme-primary'
             >For Online Coaches, Trainers & Consultants Only</p>
           </div>
 
           <h1
-            className='text-3xl font-black'
+            className='text-3xl font-black text-center md:text-left'
           >How to Get Your <span
             className='text-highlight'
           >First 5–10 Coaching Clients</span> Without Ads or Complex Funnels (Even If You Have a Small Audience)</h1>
 
           <p
-            className='text-lg'
+            className='text-lg text-center md:text-left'
           >Join the <b>live 3-step system workshop</b> trusted by <b>500+ coaches</b> to consistently attract, engage & convert clients, even with a small audience.</p>
 
           <div
@@ -66,7 +66,9 @@ const HeroSection = () => {
                     <item.icon
                       size={20}
                     />
-                    <p>{item.label}</p>
+                    <p
+                      className='text-sm md:text-base'
+                    >{item.label}</p>
                   </div>
                 ))
             }
@@ -77,11 +79,11 @@ const HeroSection = () => {
           />
 
           <p
-            className='text-lg font-bold'
+            className='text-lg font-bold text-center md:text-left'
           >Language of Workshop: English</p>
 
           <div
-            className='flex w-full'
+            className='flex w-full gap-[20px]'
           >
             <div
               className='flex items-center w-full'

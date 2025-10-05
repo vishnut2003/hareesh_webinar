@@ -11,10 +11,10 @@ const MeetCoachSection = () => {
             className='space-y-[35px]'
         >
             <div
-                className='flex items-center gap-[30px]'
+                className='flex items-center gap-[30px] flex-col md:flex-row'
             >
                 <div
-                    className='w-[40%] text-center border-2 border-theme-primary rounded-2xl overflow-hidden'
+                    className='w-full md:w-[40%] text-center border-2 border-theme-primary rounded-2xl overflow-hidden'
                 >
                     <Image
                         alt='Meet our coach'

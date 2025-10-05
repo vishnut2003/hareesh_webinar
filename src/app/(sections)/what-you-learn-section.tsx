@@ -68,15 +68,15 @@ const WhatYouLearnSection = () => {
         outerClassName='py-[40px] px-[20px]'
     >
         <div
-            className='flex items-start'
+            className='flex items-start flex-col md:flex-row gap-[30px]'
         >
             <div
                 className='w-full h-full sticky top-[30px]'
             >
                 <h2
-                    className='text-4xl font-semibold capitalize'
+                    className='text-4xl font-semibold capitalize text-center md:text-left'
                 >
-                    What you&apos;ll learn inside this <span className='text-highlight block'>free live Workshop</span>
+                    What you&apos;ll learn inside this <span className='text-highlight'>free live Workshop</span>
                 </h2>
             </div>
             <div

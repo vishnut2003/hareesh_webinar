@@ -31,7 +31,7 @@ const BenefitsSection = () => {
                             .map((item, index, items) => (
                                 <div
                                     key={index}
-                                    className='w-1/2 space-y-[15px] pb-[15px] px-[15px]'
+                                    className='w-full md:w-1/2 space-y-[15px] pb-[15px] px-[15px]'
                                 >
                                     <div
                                         className='flex items-start gap-[15px]'

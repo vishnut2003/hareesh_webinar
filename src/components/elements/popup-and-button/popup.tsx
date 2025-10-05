@@ -2,7 +2,7 @@
 
 import React, { ChangeEvent, useState } from 'react'
 import InputGroup, { InputFieldDataInterface } from '../input-group'
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+import { DialogContent, DialogDescription, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 
 const FormPopup = () => {
 
@@ -65,6 +65,7 @@ const FormPopup = () => {
                         {inputFields.map((field, index) => (
                             <InputGroup
                                 {...field}
+                                key={index}
                             />
                         ))}
 

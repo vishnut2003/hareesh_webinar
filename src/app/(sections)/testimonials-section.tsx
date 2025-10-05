@@ -22,7 +22,7 @@ const TestimonialsSection = () => {
                 >Reviews and Screenshots from those who turned the Cashflow System into consistent clients and revenue.</p>
 
                 <div
-                    className='grid grid-cols-3 gap-[25px] items-center'
+                    className='grid grid-cols-1 md:grid-cols-3 gap-[25px] items-center'
                 >
                     {
                         [
