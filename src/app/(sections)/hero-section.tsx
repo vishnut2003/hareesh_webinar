@@ -21,7 +21,7 @@ const HeroSection = () => {
       }}
     >
       <div
-        className='bg-white shadow-xl shadow-gray-200 p-[25px] flex flex-col-reverse md:flex-row items-center gap-[25px]'
+        className='bg-white shadow-xl shadow-gray-200 p-[25px] flex flex-col md:flex-row items-center gap-[25px]'
       >
         <div
           className='w-full space-y-[15px]'
@@ -39,6 +39,24 @@ const HeroSection = () => {
           >How to Get Your <span
             className='text-highlight'
           >First 5–10 Coaching Clients</span> Without Ads or Complex Funnels (Even If You Have a Small Audience)</h1>
+
+          <div
+            className='w-full space-y-[10px] md:hidden'
+          >
+            <Image
+              alt='coach'
+              src={"/images/graphics/Coach-Image-Sagar-Sangam.webp"}
+              width={533}
+              height={479}
+              className='w-full'
+            />
+            <h3
+              className='text-highlight text-3xl text-center'
+            >Sagar Sangam Sahu</h3>
+            <p
+              className='text-center text-lg'
+            >9+ years of experience in marketing & sales 15k+ Coaches Trained</p>
+          </div>
 
           <p
             className='text-lg text-center md:text-left'
@@ -140,7 +158,7 @@ const HeroSection = () => {
 
         </div>
         <div
-          className='w-full space-y-[10px]'
+          className='w-full space-y-[10px] hidden md:block'
         >
           <Image
             alt='coach'
