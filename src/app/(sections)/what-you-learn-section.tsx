@@ -97,8 +97,8 @@ const WhatYouLearnSection = () => {
                                 <Image
                                     alt='Vector images'
                                     src={card.image}
-                                    width={1000}
-                                    height={600}
+                                    width={200}
+                                    height={167}
                                     className='w-[200px] rounded-2xl'
                                 />
 

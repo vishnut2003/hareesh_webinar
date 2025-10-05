@@ -145,8 +145,8 @@ const HeroSection = () => {
           <Image
             alt='coach'
             src={"/images/graphics/Coach-Image-Sagar-Sangam.webp"}
-            width={1000}
-            height={1000}
+            width={533}
+            height={479}
             className='w-full'
           />
           <h3
